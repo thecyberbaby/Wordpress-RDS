@@ -1,0 +1,12 @@
+database_name = "wordpress_db" // database name
+database_user = "wordpress_user" //database username
+shared_credentials_file = "~/.aws" //Access key and Secret key file location
+region  = "us-east-1"  //Northern Virginia region
+ami           = "ami-08e4e35cccc6189f4"  // Amazon Linux 2 AMI (HVM) - Kernel 5.10, SSD Volume Type
+AZ1 = "us-east-1a"  // avaibility zone
+AZ2 = "us-east-1b"
+AZ3 = "us-east-1c"
+PUBLIC_KEY_PATH = "./Cloudoric123.pem" // key name for ec2, make sure it is created before terrafomr apply
+PRIV_KEY_PATH = "./Cloudoric123"
+instance_type = "t2.micro" //type pf instance
+instance_class = "db.t2.micro"
